@@ -1,0 +1,82 @@
+
+.btn .bx {
+  vertical-align: inherit;
+  margin-top: -3px;
+  font-size: 1.15rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.bx.icon-single {
+  font-size: 1.5rem;
+}
+
+
+.sub-menu.navbar-light .navbar-nav .active > .nav-link,
+.sub-menu.navbar-light .navbar-nav .nav-link.active,
+.sub-menu.navbar-light .navbar-nav .nav-link.show,
+.sub-menu.navbar-light .navbar-nav .show > .nav-link {
+  border-bottom: 3px solid #007bff;
+  color: #007bff;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+
+.navbar.bg-light {
+  background: #fff !important;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+section {
+  padding: 6rem;
+  background: white;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	border: 1px solid black;
+}
+
+div.home{
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.column{
+	display: flex;
+	border: 1px solid black;
+  	justify-content: space-between;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
