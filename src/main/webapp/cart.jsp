@@ -59,12 +59,19 @@
 									<td><c:out value="${cartItem.key.productName }"></c:out></td>
 									<td><c:out value="${cartItem.key.productPrice }"></c:out>
 									</td>
-									<td><c:out value="${cartItem.value }"></c:out></td>
-									<td><c:out
+									<td>
+									<div class="form-group d-flex justify-content-between">
+									<a class="btn bnt-sm btn-incre" href="edit-cart?action=increaseItemQuantity&productID=${cartItem.key.productID }"><i class="fas fa-plus-square"></i></a>
+									<input type="text" name="quantity" class="form-control"  value="${cartItem.value }" size="1" readonly> 
+									<a class="btn btn-sm btn-decre" href="edit-cart?action=decreaseItemQuantity&productID=${cartItem.key.productID }"><i class="fas fa-minus-square"></i></a>
+									</div>
+									</td>
+									<td>
+									<c:out
 											value="${cartItem.value * cartItem.key.productPrice }"></c:out>
 									</td>
 									<td><a
-										href="remove-from-cart?productID=${cartItem.key.productID }"
+										href="edit-cart?action=removeItem&productID=${cartItem.key.productID }"
 										class="btn btn-sm btn-danger">Remove</a></td>
 								</tr>
 							</c:forEach>
