@@ -16,9 +16,20 @@ Steps to install:
    ![AddOrRemoveOption.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/AddOrRemoveOption.png "AddOrRemoveOption.png")
    ![AddOrRemove.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/AddOrRemove.png "AddOrRemove.png")
    
- 3. Clone/Download the github repository files and replace the content in "src" with downloaded files
+3. Edit Server.xml
+   
+   Edit the Server.xml file in Servers in Project Explorer
+   
+   ![ServerConfig.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/ServerConfig.png "ServerConfig.png")
+   
+   Edit the path to "/"
+   
+   ![serverXML.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/serverXML.png "serverXML.png")
+   
+   
+4. Clone/Download the github repository files and replace the content in "src" with downloaded files
 
    ![ProjectRef.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/ProjectRef.png "ProjectRef.png")
    
- 4.Run index.jsp
+4.Run index.jsp
    ![RunAs.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/RunAs.png "RunAs.png")
