@@ -31,5 +31,6 @@ Steps to install:
 
    ![ProjectRef.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/ProjectRef.png "ProjectRef.png")
    
-4.Run index.jsp
+5.Run index.jsp
    ![RunAs.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/RunAs.png "RunAs.png")
+   ![Output.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/Output.png "Output.png")
