@@ -10,6 +10,9 @@ Reference:
 Steps to install:
 1. Create a dynamic web project in Eclipse IDE
 
-   ![Project Structure Reference](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/ProjectRef.png "Project Structure Reference")
+   ![DynamicWebProject](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/DynamicWebProject.png "DynamicWebProject.png")
 2. Add project to Tomcat instance
+
+   ![AddOrRemoveOption.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/AddOrRemoveOption.png "AddOrRemoveOption.png")
+   ![AddOrRemove.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/AddOrRemove.png "AddOrRemove.png")
  Run index.jsp
