@@ -15,4 +15,10 @@ Steps to install:
 
    ![AddOrRemoveOption.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/AddOrRemoveOption.png "AddOrRemoveOption.png")
    ![AddOrRemove.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/AddOrRemove.png "AddOrRemove.png")
- Run index.jsp
+   
+ 3. Clone/Download the github repository files and replace the content in "src" with downloaded files
+
+   ![ProjectRef.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/ProjectRef.png "ProjectRef.png")
+   
+ 4.Run index.jsp
+   ![RunAs.png](https://github.com/gloop2000/ShoppingCartWebApp/blob/main/RunAs.png "RunAs.png")
