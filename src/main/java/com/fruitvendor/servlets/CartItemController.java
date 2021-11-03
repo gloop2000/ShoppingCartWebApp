@@ -27,32 +27,32 @@ public class CartItemController extends HttpServlet {
 		currentProduct = userCart.findProductByProductID(productID);
 		switch (action) {
 		case "removeItem":
-			doGet_Remove(request, response);
+			doGet_Remove();
 			break;
 		case "increaseItemQuantity":
-			doGet_AddQuantity(request, response);
+			doGet_AddQuantity();
 			break;
 		case "decreaseItemQuantity":
-			doGet_DecreaseQuantity(request, response);
+			doGet_DecreaseQuantity();
 			break;
 		default:
 			break;
 		}
+		if(userCart.getNumberOfItemsInCart() == 0)
+			userCart = null;
 		request.getSession().setAttribute("userCart", userCart);
 		response.sendRedirect("cart.jsp");
 	}
 	
-	protected void doGet_Remove(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet_Remove(){
 		userCart.removeProductFromCart(currentProduct);
-		if(userCart.getNumberOfItemsInCart() == 0)
-			userCart = null;
 	}
 	
-	protected void doGet_AddQuantity(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet_AddQuantity() {
 		userCart.addProductToCart(currentProduct, 1.0);
 	}
 	
-	protected void doGet_DecreaseQuantity(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet_DecreaseQuantity() {
 		userCart.removeProductFromCart(currentProduct, 1.0);
 	}
 	

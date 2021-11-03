@@ -11,7 +11,13 @@
 <body>
 
 	<%@ include file="/includes/navbar.jsp"%>
-
+	<c:if test="${isItemAdded == false }">
+		<c:set  var="isItemAdded" value="${null }" scope="session"></c:set>
+		<script >
+			var message = "Quantity Requested Exceeded Stock. Current Stock: ${currentProductStock}";
+			alert(message);
+		</script>
+	</c:if>
 	<div class="container">
 		<h4 style="text-align: center">Welcome to Fruit Vendor</h4>
 		<h6 style="text-align: center">Fresh fruits, at your doorstep.</h6>
@@ -32,7 +38,7 @@
 								Price: &#x20b9;
 								<c:out value="${product.productPrice }/Kg" />
 							</h6>
-							<form action="add-to-cart">
+							<form action="add-to-cart" method="post">
 								<input type="hidden" name="productID"
 									value="${product.productID }"> <label for="QTY">QTY
 									(KG):</label> <input type="text" id="QTY" name="QTY" size="1" value="1">
