@@ -1,6 +1,6 @@
 # ShoppingCartWebApp
-Prerequisites:
-Eclipse IDE
+Prerequisite:
+Eclipse IDE,
 Tomcat server
 
 Steps to install:
